@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Plantilla</title>
+    <style>
+      .caja {
+        width: 100px;
+        height: 100px;
+        background: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col">
+          <div class="bg-primary text-white p-2 mb-4">Elemento tipo bloque</div>
+          <span class="bg-success text-white p-2 mb-4 d-inline-block">Elemento de tipo linea (convertidos a inline-block)</span>
+          <span class="bg-success text-white p-2 mb-4 d-inline-block">Elemento de tipo linea (convertidos a inline-block)</span>
+          <div class="bg-primary d-inline-block text-white p-2 mb-4">Elemento tipo bloque(convertidos a inline-block)</div>
+          <span class="bg-success text-white d-block  p-2 mb-4">Elemento de tipo line (convertido  block)</span>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col">
+          <h4>Clearfix</h4>
+          <hr>
+          <div class="bg-primary clearfix">
+            <div class="caja d-inline-block float-left"></div>
+            <div class="caja d-inline-block float-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Tabs</title>
+    <style>
+       .card1{
+        /*border-style: solid;
+        border-color: #111;
+        border-top: 0px;
+        border-radius: 0.25rem;*/
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+        border-top-left-radius:0px;
+        border-top-right-radius:0px;
+        border-top: 0px;
+      }
+      .row-final {
+        margin-bottom: 500px;;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link disabled">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link disabled">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link disabled">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active mr-1 ml-1">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active mr-1 ml-1 disabled">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active mr-1 ml-1">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- navs con dropdown!! -->
+      <div class="row mt-5">
+        <div class="col">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="db-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Categoría 1</a>
+                <a href="#" class="dropdown-item">Categoría 2</a>
+                <a href="#" class="dropdown-item">Categoría 3</a>
+                <a href="#" class="dropdown-item">Categoría 4</a>
+                <a href="#" class="dropdown-item">Categoría 5</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link disabled">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" id="db-categorias" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Categoría 1</a>
+                <a href="#" class="dropdown-item">Categoría 2</a>
+                <a href="#" class="dropdown-item">Categoría 3</a>
+                <a href="#" class="dropdown-item">Categoría 4</a>
+                <a href="#" class="dropdown-item">Categoría 5</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link disabled">Proximamente</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- nav muy buena -->
+      <div class="row mt-5 row-final">
+        <div class="col">
+          <ul class="nav nav-tabs justify-content-start">
+            <li class="nav-item">
+              <a href="#tab1" class="nav-link active" data-toggle="tab">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#tab2" class="nav-link" data-toggle="tab">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#tab3" class="nav-link" data-toggle="tab">Contacto</a>
+            </li>
+          </ul>
+
+          <!-- Contenido de los links -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab1" role="tabpanel">
+              <div class="card1">
+                <div class="card-block">
+                  <h3>Panel 1</h3>
+                  <img src="http://lorempixel.com/1000/300/sports/1/" class="d-flex mx-auto img-fluid" alt="">
+                  <p class="mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit autem omnis totam veniam animi porro ea dolores minus voluptas nisi ex perspiciatis cumque nulla quibusdam qui sequi doloremque veritatis, dignissimos distinctio adipisci. Voluptas necessitatibus dolorum consequuntur labore dolore odio repellat facilis beatae incidunt nihil explicabo, praesentium, delectus, mollitia hic neque nemo iste eos porro corporis sunt. Cupiditate voluptatem, quo. Molestias, nisi architecto animi magnam sapiente laboriosam doloribus sunt officia dolores libero? Cumque dolore doloremque officia nisi eaque sapiente non dolorem voluptas quidem repudiandae aspernatur architecto reprehenderit accusamus sint aliquam quae esse, voluptatibus reiciendis iusto alias, nihil recusandae totam, voluptate! Eveniet eligendi atque deleniti dolorum unde earum. Nam, beatae, rerum. Dolor laborum sunt fugit alias omnis placeat quos possimus sed nulla consequuntur adipisci, repellat voluptatem nisi, est quas provident. Sapiente beatae a omnis cupiditate harum aperiam voluptatum dignissimos dolorem eos quas tenetur nisi voluptas eum fugiat, impedit sunt dolorum totam! </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab2" role="tabpanel">
+              <div class="card1">
+                <div class="card-block">
+
+                  <h3>Panel 2</h3>
+                  <img src="http://lorempixel.com/1000/300/sports/1/" class="d-flex mx-auto img-fluid" alt="">
+                  <p class="mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit autem omnis totam veniam animi porro ea dolores minus voluptas nisi ex perspiciatis cumque nulla quibusdam qui sequi doloremque veritatis, dignissimos distinctio adipisci. Voluptas necessitatibus dolorum consequuntur labore dolore odio repellat facilis beatae incidunt nihil explicabo, praesentium, delectus, mollitia hic neque nemo iste eos porro corporis sunt. Cupiditate voluptatem, quo. Molestias, nisi architecto animi magnam sapiente laboriosam doloribus sunt officia dolores libero? Cumque dolore doloremque officia nisi eaque sapiente non dolorem voluptas quidem repudiandae aspernatur architecto reprehenderit accusamus sint aliquam quae esse, voluptatibus reiciendis iusto alias, nihil recusandae totam, voluptate! Eveniet eligendi atque deleniti dolorum unde earum. Nam, beatae, rerum. Dolor laborum sunt fugit alias omnis placeat quos possimus sed nulla consequuntur adipisci, repellat voluptatem nisi, est quas provident. Sapiente beatae a omnis cupiditate harum aperiam voluptatum dignissimos dolorem eos quas tenetur nisi voluptas eum fugiat, impedit sunt dolorum totam! </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab3" role="tabpanel">
+              <div class="card1">
+                <div class="card-block">
+
+                  <h3>Panel 3</h3>
+                  <img src="http://lorempixel.com/1000/300/sports/1/" class="d-flex mx-auto img-fluid" alt="">
+                  <p class="mt-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reprehenderit autem omnis totam veniam animi porro ea dolores minus voluptas nisi ex perspiciatis cumque nulla quibusdam qui sequi doloremque veritatis, dignissimos distinctio adipisci. Voluptas necessitatibus dolorum consequuntur labore dolore odio repellat facilis beatae incidunt nihil explicabo, praesentium, delectus, mollitia hic neque nemo iste eos porro corporis sunt. Cupiditate voluptatem, quo. Molestias, nisi architecto animi magnam sapiente laboriosam doloribus sunt officia dolores libero? Cumque dolore doloremque officia nisi eaque sapiente non dolorem voluptas quidem repudiandae aspernatur architecto reprehenderit accusamus sint aliquam quae esse, voluptatibus reiciendis iusto alias, nihil recusandae totam, voluptate! Eveniet eligendi atque deleniti dolorum unde earum. Nam, beatae, rerum. Dolor laborum sunt fugit alias omnis placeat quos possimus sed nulla consequuntur adipisci, repellat voluptatem nisi, est quas provident. Sapiente beatae a omnis cupiditate harum aperiam voluptatum dignissimos dolorem eos quas tenetur nisi voluptas eum fugiat, impedit sunt dolorum totam! </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
